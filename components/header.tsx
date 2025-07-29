@@ -42,7 +42,7 @@ export function Header() {
                Luma
               </span>
                 <span style={{color:'grey', fontSize:'15px', fontWeight:'40px'}}>
-                Your mental health Lumaon
+                Your mental health Luma
               </span>
             </div>
           </Link>

@@ -52,7 +52,7 @@ export default function Home() {
     {
       title: "👋 Hello, Myself Luma",
       description:
-     <b>  "As your AI Lumaon, I'm designed to support your mental well-being with empathy and confidentiality. This space is yours—to reflect, share, and grow."</b> ,
+     <b>  "As your AI Luma, I'm designed to support your mental well-being with empathy and confidentiality. This space is yours—to reflect, share, and grow."</b> ,
       icon: Waves,
     },
     {
@@ -144,7 +144,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="max-w-[600px] mx-auto text-base md:text-lg text-muted-foreground leading-relaxed tracking-wide">
-           Discover a new era of emotional support — your AI Lumaon is here to listen, understand, and walk with you through every step of your journey.
+           Discover a new era of emotional support — your AI Luma is here to listen, understand, and walk with you through every step of your journey.
           </p>
           <motion.div
             className="w-full max-w-[600px] mx-auto space-y-6 py-8"
