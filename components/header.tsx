@@ -22,8 +22,9 @@ export function Header() {
 
   console.log("Header: Auth state:", { isAuthenticated, user });
   const navItems = [
+    { href: "/", label: "Home" },
     { href: "/features", label: "Features" },
-    { href: "/about", label: "About Compani" },
+    { href: "/about", label: "About Luma" },
   ];
 
   return (
@@ -38,10 +39,10 @@ export function Header() {
             <AudioWaveform className="h-7 w-7 text-primary animate-pulse-gentle" />
             <div className="flex flex-col">
               <span className="font-semibold text-lg bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                Compani3.0
+               Luma
               </span>
-              <span className="text-xs dark:text-muted-foreground">
-                Your mental health Companion{" "}
+                <span style={{color:'grey', fontSize:'15px', fontWeight:'40px'}}>
+                Your mental health Lumaon
               </span>
             </div>
           </Link>
