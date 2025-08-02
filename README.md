@@ -42,7 +42,6 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/luma.git
-</br>
 cd luma
 ```
 
@@ -53,7 +52,7 @@ Make sure you have Node.js and npm or Yarn installed. Run the following command 
 ```bash
 npm install
 ```
-or with Yarn
+or with Yarn:
 ```bash
 yarn install
 ```
@@ -61,9 +60,9 @@ yarn install
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add the following:
 ```bash
-<p><code style="color:#d73a49;">NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key</code></p>
-<p><code style="color:#d73a49;">NEXTAUTH_SECRET=your_nextauth_secret</code></p>
-<p><code style="color:#d73a49;">NEXTAUTH_URL=http://localhost:3000</code></p>
+<pre> <code> NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000 </code> </pre>
 ```
 
 ### 4. Run the Development Server
@@ -75,7 +74,25 @@ or with Yarn:
 ```bash
 yarn dev
 ```
+Visit http://localhost:3000 in your browser to view the application.
 
+### 5. Build and Deploy
+To build the project for production:
+```bash
+npm run build
+```
+or with Yarn:
+```bash
+yarn build
+```
+To start the production server locally:
+```bash
+npm start
+```
+or with Yarn:
+```bash
+yarn start
+```
 
 
 
