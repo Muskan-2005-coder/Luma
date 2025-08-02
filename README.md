@@ -37,110 +37,45 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 - **Tailwind CSS** – Utility-first styling framework.
 ---
 
-### ✅ Final Copy-Button-Friendly Example:
-```markdown
 ## ⚙️ Installation
 
-```bash
-# 1. Clone the Repository
-git clone https://github.com/your-username/luma.git
-cd luma
-
-# 2. Install Dependencies
-npm install
-# or
-yarn install
-
-# 3. Set Up Environment Variables
-# Create a .env.local file in the root directory and add the following:
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
-NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=http://localhost:3000
-
-# 4. Run the Development Server
-npm run dev
-# or
-yarn dev
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## ⚙️ Installation
-
-# 1. Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/luma.git
 </br>
 cd luma
+```
 
 ---
 
 ### 2. Install Dependencies
-```bash
 Make sure you have Node.js and npm or Yarn installed. Run the following command to install dependencies:
-</br>
+```bash
 npm install
-</br>
+```
 or with Yarn
-</br>
+```bash
 yarn install
-
+```
 ---
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add the following:
-</br>
-#env configuration
-</br>
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
-</br>
-NEXTAUTH_SECRET=your_nextauth_secret
-</br>
-NEXTAUTH_URL=http://localhost:3000
+```bash
+<p><code style="color:#d73a49;">NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key</code></p>
+<p><code style="color:#d73a49;">NEXTAUTH_SECRET=your_nextauth_secret</code></p>
+<p><code style="color:#d73a49;">NEXTAUTH_URL=http://localhost:3000</code></p>
+```
 
 ### 4. Run the Development Server
 Start the app locally:
-</br>
+```bash
 npm run dev
-</br>
+```
 or with Yarn:
-</br>
+```bash
 yarn dev
+```
+
 
 
 
