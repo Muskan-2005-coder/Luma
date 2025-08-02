@@ -35,14 +35,76 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 - **Framer Motion** – Animation library for rich user experience.
 - **Radix UI** – Primitives for accessible UI components.
 - **Tailwind CSS** – Utility-first styling framework.
-
 ---
 
+### ✅ Final Copy-Button-Friendly Example:
+```markdown
 ## ⚙️ Installation
 
 ```bash
-### 1. Clone the Repository
+# 1. Clone the Repository
+git clone https://github.com/your-username/luma.git
+cd luma
 
+# 2. Install Dependencies
+npm install
+# or
+yarn install
+
+# 3. Set Up Environment Variables
+# Create a .env.local file in the root directory and add the following:
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+
+# 4. Run the Development Server
+npm run dev
+# or
+yarn dev
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## ⚙️ Installation
+
+# 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/luma.git
 </br>
 cd luma
@@ -50,7 +112,7 @@ cd luma
 ---
 
 ### 2. Install Dependencies
-
+```bash
 Make sure you have Node.js and npm or Yarn installed. Run the following command to install dependencies:
 </br>
 npm install
@@ -79,6 +141,7 @@ npm run dev
 or with Yarn:
 </br>
 yarn dev
+
 
 
 
