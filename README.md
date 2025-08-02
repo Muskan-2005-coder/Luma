@@ -1,4 +1,4 @@
-# 🧠✨ Luma 
+## 🧠✨ Luma 
 Welcome to **Luma**, an AI-powered mental health platform designed to help users track their mood, detect stress, and gain insights into emotional well-being. This project leverages modern web technologies like **Next.js**, **TypeScript**, **Gemini AI**, and more to provide a seamless and secure mental health dashboard.
 
 ---
@@ -98,6 +98,7 @@ yarn start
 For any questions or feedback, feel free to reach out:
 
 Email: muskank5810@gmail.com
+
 
 
 
