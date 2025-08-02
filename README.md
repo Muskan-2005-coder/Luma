@@ -6,16 +6,21 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 ## 🚀 Features
 
 - 🧠 **AI-Powered Mood Tracking**: Allows users to log daily moods and track their emotional patterns over time.
+- 
    <img width="1890" height="910" alt="Screenshot 2025-08-02 131721" src="https://github.com/user-attachments/assets/a2fbd968-f4ad-40b7-bb39-ec18ebd583b3" />
+   
 - ⚡ **Real-Time Stress Detection**: Integrated with **Inngest** to analyze input and detect stress with improved accuracy.
+- 
 <img width="1890" height="890" alt="image" src="https://github.com/user-attachments/assets/9c637ec8-daa5-4c3d-9b0d-f31d2d27b3ff" />
 
 - 🧩 **Modular Dashboard**: Easily extendable and maintainable structure using reusable components and modern development practices.
 
 - 🔐 **Secure Authentication**: Powered by **NextAuth.js** to manage sessions and keep user data safe.
+- 
  <img width="1890" height="890" alt="image" src="https://github.com/user-attachments/assets/9a49a131-f3e4-4871-a5c7-f587927b4a20" />
 
 - 🎨 **Dynamic UI**: Built with **Framer Motion** and **Radix UI** for smooth animations and an accessible user interface.
+- 
  <img width="1890" height="890" alt="image" src="https://github.com/user-attachments/assets/43dcfa9a-8517-474e-bbb5-6dc0f2064f84" />
 
 ---
@@ -38,6 +43,7 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 ### 1. Clone the Repository
 
 git clone https://github.com/your-username/luma.git
+</br>
 cd luma
 
 ---
@@ -45,25 +51,34 @@ cd luma
 ### 2. Install Dependencies
 
 Make sure you have Node.js and npm or Yarn installed. Run the following command to install dependencies:
-
+</br>
 npm install
-# or with Yarn
+</br>
+or with Yarn
+</br>
 yarn install
 
 ---
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add the following:
-
+</br>
 #env configuration
+</br>
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+</br>
 NEXTAUTH_SECRET=your_nextauth_secret
+</br>
 NEXTAUTH_URL=http://localhost:3000
 
 ### 4. Run the Development Server
 Start the app locally:
+</br>
 npm run dev
-# or with Yarn:
+</br>
+or with Yarn:
+</br>
 yarn dev
+
 
 
 
