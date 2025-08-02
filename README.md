@@ -59,13 +59,10 @@ yarn install
 ---
 ### 3. Set Up Environment Variables
 Create a .env.local file in the root directory and add the following:
-```bash
-$$
-\color{green}{NEXTAUTH\_SECRET}\color{black}{=your\_nextauth\_secret}
-$$
-
+```env
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 NEXTAUTH_SECRET=your_nextauth_secret
-NEXTAUTH_URL=http://localhost:3000 </code> </pre>
+NEXTAUTH_URL=http://localhost:3000
 ```
 
 ### 4. Run the Development Server
