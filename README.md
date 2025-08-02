@@ -37,19 +37,34 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/luma.git
 cd luma
 
 ---
 
-### 2. **Install Dependencies**
+### 2. Install Dependencies
 
 Make sure you have Node.js and npm or Yarn installed. Run the following command to install dependencies:
 
 npm install
 # or with Yarn
 yarn install
+
+---
+### 3. Set Up Environment Variables
+Create a .env.local file in the root directory and add the following:
+
+#env configuration
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+NEXTAUTH_SECRET=your_nextauth_secret
+NEXTAUTH_URL=http://localhost:3000
+
+### 4. Run the Development Server
+Start the app locally:
+npm run dev
+# or with Yarn:
+yarn dev
+
 
 
 
