@@ -7,7 +7,7 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 
 - 🧠 **AI-Powered Mood Tracking**: Allows users to log daily moods and track their emotional patterns over time.
  
-   <img width="1890" height="910" alt="Screenshot 2025-08-02 131721" src="https://github.com/user-attachments/assets/a2fbd968-f4ad-40b7-bb39-ec18ebd583b3" />
+   <img width="1890" height="890" alt="Screenshot 2025-08-02 131721" src="https://github.com/user-attachments/assets/a2fbd968-f4ad-40b7-bb39-ec18ebd583b3" />
    
 - ⚡ **Real-Time Stress Detection**: Integrated with **Inngest** to analyze input and detect stress with improved accuracy.
  
@@ -40,6 +40,7 @@ Welcome to **Luma**, an AI-powered mental health platform designed to help users
 
 ## ⚙️ Installation
 
+```bash
 ### 1. Clone the Repository
 
 git clone https://github.com/your-username/luma.git
@@ -78,6 +79,7 @@ npm run dev
 or with Yarn:
 </br>
 yarn dev
+
 
 
 
